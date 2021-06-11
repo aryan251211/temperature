@@ -1,12 +1,12 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("" + (max_temperature))
+    basic.showString("" + (min_temperature))
 })
 input.onButtonPressed(Button.AB, function () {
     max_temperature = input.temperature()
     min_temperature = input.temperature()
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("" + (min_temperature))
+    basic.showString("" + (max_temperature))
 })
 let min_temperature = 0
 let max_temperature = 0
